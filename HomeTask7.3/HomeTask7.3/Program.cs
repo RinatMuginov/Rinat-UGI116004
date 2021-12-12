@@ -8,17 +8,22 @@ namespace HomeTask7._3
         {
             Console.WriteLine("Введите огранчиение E для задания 3 в варинте 16");
             double E = double.Parse(Console.ReadLine());
-            double a = 1;
-            for (int i = 1; ; i++)
+            if (E > 0)
             {
-                if (Math.Abs(2 - a) < E)
+                double a = 1;
+                for (int i = 1; ; i++)
                 {
-                    Console.WriteLine($"Для ограничения {E} подходит значение {a} под индексом {i}");
-                    break;
+                    if (Math.Abs(2 - a) < E)
+                    {
+                        Console.WriteLine($"Для ограничения {E} подходит значение {a} под индексом {i}");
+                        break;
+                    }
+                    else
+                        a = a + Math.Pow(0.5, i);
                 }
-                else
-                    a = a + Math.Pow(0.5, i);
             }
+            else
+                Console.WriteLine("Значение ограничения должно быть положительным");
         }
     }
 }
