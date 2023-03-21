@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10B7DC10-1B49-43F7-983C-D4BC39615ECB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Time_MuginovRinat</RootNamespace>
+    <FileAlignment>512</FileAlignment>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\ProjectEvaluation\time_muginovrinat_ugi216004.metadata.v5.1" />
+    <None Include=".vs\ProjectEvaluation\time_muginovrinat_ugi216004.projects.v5.1" />
+    <None Include=".vs\Time_MuginovRinat\v17\TestStore\0\000.testlog" />
+    <None Include=".vs\Time_MuginovRinat\v17\TestStore\0\testlog.manifest" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\FileContentIndex\144069ff-d890-4320-aed1-180e1b328f99.vsidx" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\FileContentIndex\6ae75d4d-4cad-44f9-ad23-cc07c609c933.vsidx" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\FileContentIndex\ac592084-0635-4130-abcc-d5e216f7364b.vsidx" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\FileContentIndex\e78f1b11-ca99-4292-8bc7-ffb611a8e987.vsidx" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\FileContentIndex\read.lock" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\v17\.futdcache.v2" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\v17\.suo" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\v17\TestStore\0\003.testlog" />
+    <None Include=".vs\Time_MuginovRinat_UGI216004\v17\TestStore\0\testlog.manifest" />
+    <None Include="TimeStruct.UnitTest\bin\Debug\net6.0\nunit_random_seed.tmp" />
+    <None Include="TimeStruct.UnitTest\bin\Debug\net6.0\TimeStruct.UnitTest.deps.json" />
+    <None Include="TimeStruct.UnitTest\bin\Debug\net6.0\TimeStruct.UnitTest.runtimeconfig.json" />
+    <None Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.AssemblyInfoInputs.cache" />
+    <None Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.assets.cache" />
+    <None Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.csproj.AssemblyReference.cache" />
+    <None Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.csproj.BuildWithSkipAnalyzers" />
+    <None Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.csproj.CopyComplete" />
+    <None Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.csproj.CoreCompileInputs.cache" />
+    <None Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.genruntimeconfig.cache" />
+    <None Include="TimeStruct.UnitTest\obj\project.assets.json" />
+    <None Include="TimeStruct.UnitTest\obj\project.nuget.cache" />
+    <None Include="TimeStruct.UnitTest\obj\TimeStruct.UnitTest.csproj.nuget.dgspec.json" />
+    <None Include="TimeStruct.UnitTest\obj\TimeStruct.UnitTest.csproj.nuget.g.props" />
+    <None Include="TimeStruct.UnitTest\obj\TimeStruct.UnitTest.csproj.nuget.g.targets" />
+    <None Include="TimeStruct.UnitTest\TimeStruct.UnitTest.csproj" />
+    <None Include="Time_MuginovRinat_UGI216004\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Time_MuginovRinat_UGI216004\obj\Debug\Time_MuginovRinat_UGI216004.csproj.AssemblyReference.cache" />
+    <None Include="Time_MuginovRinat_UGI216004\obj\Debug\Time_MuginovRinat_UGI216004.csproj.CoreCompileInputs.cache" />
+    <None Include="Time_MuginovRinat_UGI216004\Time_MuginovRinat_UGI216004.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Newtonsoft.Json.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\NuGet.Frameworks.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\nunit.engine.api.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\nunit.engine.core.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\nunit.engine.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\nunit.framework.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\NUnit3.TestAdapter.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\NUnit3.TestAdapter.pdb" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\testcentric.engine.metadata.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\testhost.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\testhost.exe" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\TimeStruct.UnitTest.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\TimeStruct.UnitTest.pdb" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Time_MuginovRinat_UGI216004.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\Time_MuginovRinat_UGI216004.pdb" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <Content Include="TimeStruct.UnitTest\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Content Include="TimeStruct.UnitTest\obj\Debug\net6.0\refint\TimeStruct.UnitTest.dll" />
+    <Content Include="TimeStruct.UnitTest\obj\Debug\net6.0\ref\TimeStruct.UnitTest.dll" />
+    <Content Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.AssemblyInfo.cs" />
+    <Content Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.csproj.FileListAbsolute.txt" />
+    <Content Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.dll" />
+    <Content Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.GlobalUsings.g.cs" />
+    <Content Include="TimeStruct.UnitTest\obj\Debug\net6.0\TimeStruct.UnitTest.pdb" />
+    <Content Include="TimeStruct.UnitTest\UnitTest1.cs" />
+    <Content Include="TimeStruct.UnitTest\Usings.cs" />
+    <Content Include="Time_MuginovRinat_UGI216004\bin\Debug\Time_MuginovRinat_UGI216004.dll" />
+    <Content Include="Time_MuginovRinat_UGI216004\bin\Debug\Time_MuginovRinat_UGI216004.pdb" />
+    <Content Include="Time_MuginovRinat_UGI216004\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Content Include="Time_MuginovRinat_UGI216004\obj\Debug\Time_MuginovRinat_UGI216004.csproj.FileListAbsolute.txt" />
+    <Content Include="Time_MuginovRinat_UGI216004\obj\Debug\Time_MuginovRinat_UGI216004.dll" />
+    <Content Include="Time_MuginovRinat_UGI216004\obj\Debug\Time_MuginovRinat_UGI216004.pdb" />
+    <Content Include="Time_MuginovRinat_UGI216004\Properties\AssemblyInfo.cs" />
+    <Content Include="Time_MuginovRinat_UGI216004\Time.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Time_MuginovRinat_UGI216004\FileContentIndex\merges\" />
+    <Folder Include="My Project\" />
+    <Folder Include="Time_MuginovRinat_UGI216004\bin\Release\" />
+    <Folder Include="Time_MuginovRinat_UGI216004\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
