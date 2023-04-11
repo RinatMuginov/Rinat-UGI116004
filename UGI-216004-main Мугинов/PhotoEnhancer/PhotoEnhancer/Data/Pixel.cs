@@ -32,31 +32,24 @@ namespace PhotoEnhancer
         {
             get
             {
-                if ((MaxOfRGB(R, G, B) == R)&&(G >= B))
-                    return 60*((G - B)/(MaxOfRGB(R, G, B) - MinOfRGB(R, G, B))) + 0;
-                if ((MaxOfRGB(R, G, B) == R) && (G < B))
-                    return 60 * ((G - B) / (MaxOfRGB(R, G, B) - MinOfRGB(R, G, B))) + 360;
-                if (MaxOfRGB(R, G, B) == G)
-                    return 60 * ((B - R) / (MaxOfRGB(R, G, B) - MinOfRGB(R, G, B))) + 120;
+                if ((MaxOfRGB(R, G, B) - MinOfRGB(R, G, B)) == 0)
+                    return 0;
+                if (MaxOfRGB(R, G, B) == R)
+                    return 60 * ((G - B) / (MaxOfRGB(R, G, B) - MinOfRGB(R, G, B)) % 6);
+                if (MaxOfRGB(R, G, B) == R)
+                    return 60 * ((B - R) / (MaxOfRGB(R, G, B) - MinOfRGB(R, G, B)) + 2);
                 else
-                    return 60 * ((R - G) / (MaxOfRGB(R, G, B) - MinOfRGB(R, G, B))) + 240;
+                    return 60 * ((R - G) / (MaxOfRGB(R, G, B) - MinOfRGB(R, G, B)) + 4);
             }
         }
         public double S
         {
-            get
-            {
-                if ((L == 0 ||(MaxOfRGB(R, G, B) == MinOfRGB(R, G, B))))
-                    return 0;
-                if ((L > 0 && L < 0.5))
-                    return CheckValue((MaxOfRGB(R, G, B) - MinOfRGB(R, G, B)) / (2 * L));
-                else
-                    return CheckValue((MaxOfRGB(R, G, B) - MinOfRGB(R, G, B)) / (2 - 2 * L));
-            }
+            get => Trim(((MaxOfRGB(R, G, B) - MinOfRGB(R, G, B))) / (1 - Math.Abs(2 * L - 1)));
+            
         }
         public double L
         {
-            get => CheckValue((0.5 * (MaxOfRGB(R,G,B) + MinOfRGB(R,G,B))));
+            get => CheckValue(Trim(0.5 * (MaxOfRGB(R,G,B) + MinOfRGB(R,G,B))));
         }
 
 
@@ -102,7 +95,7 @@ namespace PhotoEnhancer
         }
         private static double MinOfRGB(double r, double g, double b)
         {
-            return Math.Min(r, Math.Min(g,b));
+            return Math.Min(r, Math.Min(g, b));
         }
     }
 }

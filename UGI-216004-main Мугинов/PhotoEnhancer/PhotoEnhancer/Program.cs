@@ -8,15 +8,9 @@ namespace PhotoEnhancer
 {
     internal static class Program
     {
-        /// <summary>
-        /// Главная точка входа для приложения.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            var p = new Pixel(0.8, 0.7, 0.2);
-            var p2 = Convertors.HSLToPixel(p.H, p.S, p.L);
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
